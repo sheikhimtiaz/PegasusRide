@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="215dp"
+                android:id="@+id/imageButtonVehiclePhotoAdd"
+                android:background="@color/colorAccent"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/add_btn"
+                android:saveEnabled="true"
+                app:srcCompat="@mipmap/add_btn" />
+
+
+            <EditText
+                android:layout_margin="15dp"
+                android:inputType="text"
+                android:id="@+id/editTextModel"
+                android:hint="Model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <EditText
+                android:layout_margin="15dp"
+                android:inputType="text"
+                android:id="@+id/editTextBrand"
+                android:hint="Brand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <EditText
+                android:layout_margin="15dp"
+                android:inputType="text"
+                android:id="@+id/editTextCode"
+                android:hint="Code"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:hint="Description"
+                android:id="@+id/editTextDescription" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Present Condition of the Vehicle"
+                android:textSize="20dp"/>
+
+            <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RadioButton android:id="@+id/radio_sell"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/forSell"
+                    android:onClick="onRadioButtonClicked"/>
+                <RadioButton android:id="@+id/radio_rent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/forRent"
+                    android:onClick="onRadioButtonClicked"/>
+                <RadioButton android:id="@+id/radio_lost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/forLost"
+                    android:onClick="onRadioButtonClicked"/>
+            </RadioGroup>
+
+
+            <Button
+                android:text="Add My Vechicle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonAddVehicle"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "43365096825",
+    "firebase_url": "https://project200-e7fa5.firebaseio.com",
+    "project_id": "project200-e7fa5",
+    "storage_bucket": "project200-e7fa5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43365096825:android:30a1086407626271",
+        "android_client_info": {
+          "package_name": "com.sheikhimtiaz.pegasusride"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43365096825-3476ji9chdb83gvbjahdhmrsic9h6lh8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvlFHQg9aBucjopSgwBjrV2z4NebwDK_Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="215dp"
+                android:id="@+id/imageButtonProfilePhotoUpdate"
+                android:background="@color/colorAccent"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/add_btn" />
+
+            <EditText
+                android:layout_margin="15dp"
+                android:inputType="text"
+                android:id="@+id/editTextFirstName"
+                android:hint="First Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <EditText
+                android:layout_margin="15dp"
+                android:inputType="text"
+                android:id="@+id/editTextLastName"
+                android:hint="Last Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <EditText
+                android:layout_margin="15dp"
+                android:inputType="text"
+                android:id="@+id/editTextAge"
+                android:hint="Your Age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_margin="15dp"
+                android:inputType="text"
+                android:id="@+id/editTextPhoneNumber"
+                android:hint="Your Phone Number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <EditText
+                android:layout_margin="15dp"
+                android:inputType="text"
+                android:id="@+id/editTextHometown"
+                android:hint="Hometown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+            <Button
+                android:text="Update My Profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonUpdateProfile"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

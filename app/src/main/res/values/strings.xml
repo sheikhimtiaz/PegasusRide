@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">PegasusRide</string>
+    <string name="large_text">
+        " Pegasus Ride is a vehicle management app.\n\n"
+        "Why rent a car when you can lend someone else's car that's been sitting still for months. Maybe one of your friend's has one. Or maybe more. Lets check them all out. Its time to go for a long-ride.\n\n"
+        "Our app will help you to find a car that is cheaper than the car you were about to rent from a rent-a-car company. You can post your wheels too. Get on with this app. It's awesome.\n\n"
+    </string>
+    <string name="action_settings">About Us</string>
+    <string name="Searchable">Searchable</string>
+    <string name="menu_search">Search</string>
+    <string name="registerNow">Join Now</string>
+    <string name="profileView">Profile</string>
+    <string name="logOut">Log Out</string>
+    <string name="logIn">Log In</string>
+    <string name="toolbar_title">Search for your wheels</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="updateprofiletittle">Update Your Profile</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="toolbar_dummy">Search for your wheels</string>
+    <string name="regActivity_title">Create Your Pegasus Account</string>
+    <string name="loginActivity_title">Log into your Pegasus account</string>
+    <string name="about_title">About The App</string>
+    <string name="decripti_ontext">
+        " Pegasus Ride is a vehicle management app.\n\n"
+        "Why rent a car when you can lend someone else's car that's been sitting still for months. Maybe one of your friend's has one. Or maybe more. Lets check them all out. Its time to go for a long-ride.\n\n"
+        "Our app let's you help to find a car that is cheaper than the car you were gonna rent from a rent-a-car company. You can post your wheels too. Get on with this app. It's awesome.\n\n\n\n"
+
+        "Developers: \n\n"
+        "ABDUR RAZZAK RANA\n"
+        "Reg No: 2013331011\n\n"
+        "MD IMTIAZ AHMED\n"
+        "Reg No: 2013331061\n\n"
+
+
+    </string>
+    <string name="profile_toolbar_title">User Profile</string>
+    <string name="forSell">I want to sell</string>
+    <string name="forRent">I want it to be rented</string>
+    <string name="forLost">I lost this vehicle</string>
+    <string name="newVehicleTitle">Add your vehicle to your account</string>
+    <string name="serachActivity_title">Search for your wheel</string>
+    <string name="search_str">Search Now</string>
+    <string name="vehicle_post_title">Add your new vehicle</string>
+</resources>
